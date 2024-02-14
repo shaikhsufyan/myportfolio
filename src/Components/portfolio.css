@@ -1,0 +1,291 @@
+ 
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    height: 80px;
+}
+nav .logo{
+    margin-left: 22px;
+    font-size: 20px;
+}
+.navItem{
+    text-decoration: none;
+    color: white;
+}
+#icons i{
+    margin-right: 22px;
+    font-size: 26px;
+    cursor: pointer;
+}
+ .hideData #crossIcon{
+    display: none;
+ }
+ .showData #barIcon{
+    display: none;
+ }
+ .nav-items{
+    display: none;
+ }
+ .showData ul{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    background-color: black;
+    position: absolute;
+    right: 0px;
+    width: 250px;
+    height: 100vh;
+    gap: 0px;
+    top: 54px;
+ }
+ ul li {
+    list-style: none;
+    font-size: 22px;
+     
+ }
+ ul li P{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    margin-top: 11px;
+ }
+ ul li p:hover{
+    color: silver;
+    border-bottom: 1px solid silver;
+    font-weight: 600;
+
+ }
+
+
+
+ /* HeroSection */
+ .mainPage{
+    text-align: center;
+    margin-top: 200px;
+    padding: 44px;
+    
+ }
+ .mainPage p{
+    font-size: 40px;
+ }
+ .mainPage h1{
+    font-size: 60px;
+    margin-top: -41px;
+ }
+ .mainPage ul{
+    text-align: center;
+ }
+ .mainPage i{
+    color: black;
+    font-size: 28px;
+    cursor: pointer;
+    margin-inline: 8px;
+ }
+
+ /* AboutUs */
+ 
+
+ .head{
+    text-align: center;
+    margin-top: 85px;
+    padding: 33px;
+    font-size: 24px;
+    
+ }
+ .aboutUs{
+    background-image: linear-gradient(to right,#C6FCFF, #FFC0CB);
+    padding: 90px;
+    margin-top: 151px;
+    
+ }
+ .about{
+    width: 550px;
+    margin: auto;
+    text-align: center;
+    margin-top: -100px;
+    
+ }
+ .text-heading{
+    font-weight: 600;
+    position: relative;
+    top: 11px;
+ }
+.aboutText p{
+    font-size: 18px;
+}
+.aboutText ul{
+    display: flex;
+    gap: 11px;
+    justify-content: center;
+    align-items: center;
+}
+.aboutText i{
+    color: black;
+    font-size: 25px;
+    border: 1px solid black;
+    padding: 6px;
+}
+
+@media screen and (max-width:700px){
+    .about{
+        width: 99%;
+        
+    }
+    .aboutUs{
+        padding: 22px;
+    }
+}
+
+
+
+
+
+
+ 
+
+
+/* Skill Page */
+.skills{
+    width: 480px;
+    margin: auto;
+     
+}
+.skills button{
+    width: 140px;
+    height: 44px;
+    margin: 7px;
+    font-size: 16px;
+}
+@media screen and (max-width:500px){
+    .skills{
+      
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        width: 140px;
+        margin: auto;
+         
+    }
+}
+ 
+
+
+
+
+
+/* Project Cards */
+.project-card{
+    width: 600px;
+    margin: auto;
+    background-color: pink;
+    padding: 22px;
+    margin-top: 22px;
+    border-radius: 12px;
+    
+}
+.project-card .links a{
+    color: black;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 4px;
+    margin: 3px;
+}
+.project-card .links a:hover{
+    background-color: black;
+    color: white;
+    font-weight: 600;
+}
+ 
+@media screen and (max-width:700px){
+    .project-card{
+        width: 80%;
+    }
+}
+
+
+
+
+
+/* YOUTube */
+.my-work{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.youtubeCard{
+    width: 450px;
+    background-color: #FFC0CB;
+    padding: 11px;
+    margin-top: 22px;
+}
+.youtubeCard a{
+    padding: 4px 12px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: 600;
+}
+.youtubeCard a:hover{
+    border: 1px solid black;
+    background-color: transparent;
+    color: black;
+}
+.youtubeCard img{
+    width: 100%;
+}
+@media screen and (max-width:1050px){
+    .my-work{
+        width: 90%;
+    }
+}
+
+
+
+
+
+ 
+
+/* Contact Us */
+.contact{
+    text-align: center;
+    height: 90vh;
+    padding: 44px;
+    background-color: #0e4e5e;
+}
+.contact .work{
+    font-size: 22px;
+}
+.contact i{
+    font-size: 24px;
+    color: black;
+}
+
+
+
+
+
+/* Footer */
+.footer{
+    text-align: center;
+    padding: 33px;
+}
+
+body{
+    background-color: #0e4e5e;
+    /* color: white; */
+}
